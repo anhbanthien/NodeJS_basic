@@ -1,0 +1,7 @@
+4.NPM ( Node package manager )
+- Trình quản lí các gói dành cho Node
+- Vì sao cần ?
+  .Trang cung cấp , giới thiệu thư viện dành cho Node
+  .Quản lí thư viện của JS
+   
+
