@@ -1,7 +1,12 @@
-4.NPM ( Node package manager )
+#4.NPM ( Node package manager )
 - Trình quản lí các gói dành cho Node
 - Vì sao cần ?
   .Trang cung cấp , giới thiệu thư viện dành cho Node
   .Quản lí thư viện của JS
-   
+#5 HELLO WORLD VỚI NODE.JS VÀ EXPRESS FRAMEWORK
+
+#6 VIEW ENGINE LÀ CÁI QUÁI GÌ 
+Xử lí điều kiện logic trong Html như kiểu thằng java có jsp ấy =))
+Cài đặt các thư viện cần thiết:
+npm install --save-exact body-parser@1.19.0 nodemon@2.0.12 @babel/core@7.15.5 @babel/node@7.15.4 @babel/preset-env@7.15.6
 
