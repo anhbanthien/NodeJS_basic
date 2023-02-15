@@ -1,13 +1,10 @@
 import express from 'express'
 import configViewEngine from './configs/viewEngine'
+require('dotenv').config()
 
 const app = express()
-const post = 8080
-// app.get('/', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'about')
-//     )
+const post = process.env.PORT || 8080
 
-// })
 configViewEngine(app)
 
 app.get('/', (req, res) => {
@@ -20,5 +17,5 @@ app.get('/ejs1', (req, res) => {
     res.render('index.ejs')
 })
 app.listen(post, () => {
-    console.log(post);
+    console.log(`port dang la ${post}`);
 })

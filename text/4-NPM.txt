@@ -10,3 +10,7 @@ Xử lí điều kiện logic trong Html như kiểu thằng java có jsp ấy =
 Cài đặt các thư viện cần thiết:
 npm install --save-exact body-parser@1.19.0 nodemon@2.0.12 @babel/core@7.15.5 @babel/node@7.15.4 @babel/preset-env@7.15.6
 
+#7 STATIC FILES - SỬ DỤNG CSS/JS/IMAGES VỚI NODE.JS 
+
+Tạo .env
+cài đặt dotenv
