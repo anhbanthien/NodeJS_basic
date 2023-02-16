@@ -11,6 +11,11 @@ Cài đặt các thư viện cần thiết:
 npm install --save-exact body-parser@1.19.0 nodemon@2.0.12 @babel/core@7.15.5 @babel/node@7.15.4 @babel/preset-env@7.15.6
 
 #7 STATIC FILES - SỬ DỤNG CSS/JS/IMAGES VỚI NODE.JS 
-
-Tạo .env
+Tạo .env để hứng port từ file đã được định nghĩa
 cài đặt dotenv
+ app.use(express.static('./src/public')) 
+ để load những file có quyền public từ đường dẫn 
+
+ #8 ROUTERS & MVC DESIGN PATTERN VỚI NODE.JS
+ Routers giúp website của chúng ta sẽ phản hồi lại người dùng khi vào một đường link cụ thể trên website.
+  Mô hình MVC (Model-View-Controller) giúp cho code của chúng ta rõ ràng, dễ viết và dễ bảo trì hơn.
